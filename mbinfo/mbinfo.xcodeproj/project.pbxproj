@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		461A5C5C19AE773F00E6DCB9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 461A5C5B19AE773F00E6DCB9 /* main.c */; };
+		461A5C6819AE788C00E6DCB9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 461A5C6519AE788C00E6DCB9 /* main.c */; };
+		461A5C6919AE788C00E6DCB9 /* SmcMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 461A5C6619AE788C00E6DCB9 /* SmcMain.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		461A5C5819AE773F00E6DCB9 /* mbinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mbinfo; sourceTree = BUILT_PRODUCTS_DIR; };
-		461A5C5B19AE773F00E6DCB9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		461A5C6519AE788C00E6DCB9 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		461A5C6619AE788C00E6DCB9 /* SmcMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SmcMain.c; sourceTree = "<group>"; };
+		461A5C6719AE788C00E6DCB9 /* SmcMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmcMain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,9 @@
 		461A5C4F19AE773F00E6DCB9 = {
 			isa = PBXGroup;
 			children = (
-				461A5C5A19AE773F00E6DCB9 /* mbinfo */,
+				461A5C6519AE788C00E6DCB9 /* main.c */,
+				461A5C6619AE788C00E6DCB9 /* SmcMain.c */,
+				461A5C6719AE788C00E6DCB9 /* SmcMain.h */,
 				461A5C5919AE773F00E6DCB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +57,6 @@
 				461A5C5819AE773F00E6DCB9 /* mbinfo */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		461A5C5A19AE773F00E6DCB9 /* mbinfo */ = {
-			isa = PBXGroup;
-			children = (
-				461A5C5B19AE773F00E6DCB9 /* main.c */,
-			);
-			path = mbinfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +115,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461A5C5C19AE773F00E6DCB9 /* main.c in Sources */,
+				461A5C6919AE788C00E6DCB9 /* SmcMain.c in Sources */,
+				461A5C6819AE788C00E6DCB9 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
