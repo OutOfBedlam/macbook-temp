@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>227B8EF4-EC52-409A-B2BC-B356BE943838</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mbinfo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D805B6B173B85B60BB2CDCB7584B7C3C4603F2FB</key>
+		<string>https://github.com/OutOfBedlem/macbook-temp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mbinfo/mbinfo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D805B6B173B85B60BB2CDCB7584B7C3C4603F2FB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/OutOfBedlem/macbook-temp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D805B6B173B85B60BB2CDCB7584B7C3C4603F2FB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D805B6B173B85B60BB2CDCB7584B7C3C4603F2FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MacbookTemperature</string>
+		</dict>
+	</array>
+</dict>
+</plist>
