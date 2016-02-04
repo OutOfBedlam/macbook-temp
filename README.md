@@ -1,9 +1,9 @@
 # macbook-temp
 Command line tool that shows your macbook's health information
 
-[x] CPU fan speed 
-[x] CPU temperature
-[x] Battery Status
+- [x] CPU fan speed 
+- [x] CPU temperature
+- [x] Battery Status
 
 ```bash
 $ ./mbinfo
