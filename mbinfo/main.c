@@ -35,8 +35,8 @@ int main(int argc, const char * argv[])
 	char batteryHealth[256];
 	strncpy(batteryHealth, getBatteryHealth(), 255);
 
-	if (batteryHealth)
-		printf ("Battery Status: %s\n", batteryHealth);
+	//if (batteryHealth)
+    printf ("Battery Status: %s\n", batteryHealth);
 
 	SMCClose();
 
