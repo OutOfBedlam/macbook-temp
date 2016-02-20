@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/OutOfBedlam/macbook-temp.svg?branch=master)](https://travis-ci.org/OutOfBedlam/macbook-temp)
 
--------------
-
 Command line tool that shows your macbook's health information
 
 - [x] CPU fan speed 
