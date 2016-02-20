@@ -2,3 +2,4 @@ language: objective-c
 osx_image: xcode7.2
 xcode_project: mbinfo/mbinfo.xcodeproj
 xcode_scheme: mbinfo
+xcode_sdk: macosx10.11
