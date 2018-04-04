@@ -21,7 +21,7 @@ int main(int argc, const char * argv[])
 		return -1;
 	}
 
-	printf("CPU Temp: %0.1f°C\n", SMCGetTemperature(SMC_KEY_CPU_TEMP));
+	printf("CPU Temp: %0.2f °C\n", SMCGetTemperature(SMC_KEY_CPU_TEMP));
 
 	int fanNum = SMCGetFanNumber(SMC_KEY_FAN_NUM);
 	for (int i = 0; i < fanNum; i++)

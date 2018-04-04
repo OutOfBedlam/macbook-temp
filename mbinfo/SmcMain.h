@@ -95,15 +95,15 @@ typedef struct {
 	SMCBytes_t              bytes;
 } SMCVal_t;
 
-kern_return_t	SMCOpen();
-kern_return_t	SMCClose();
+kern_return_t	SMCOpen(void);
+kern_return_t	SMCClose(void);
 
 float			SMCGetFanSpeed(int fanNum);
 double			SMCGetTemperature(char *key);
 int				SMCGetFanNumber(char *key);
 
-int				getDesignCycleCount();
-const char*		getBatteryHealth();
+int				getDesignCycleCount(void);
+const char*		getBatteryHealth(void);
 
 
 #endif //SMC_MAIN_H
