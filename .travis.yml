@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode9.3beta
+osx_image: xcode9.2
 xcode_project: mbinfo/mbinfo.xcodeproj
 xcode_scheme: mbinfo
 xcode_sdk: macosx10.11
