@@ -3,4 +3,4 @@ osx_image: xcode9.2
 xcode_project: mbinfo/mbinfo.xcodeproj
 xcode_scheme: mbinfo
 xcode_sdk: macosx10.11
-script: xctool -project mbinfo/mbinfo.xcodeproj -scheme mbinfo -sdk macosx10.11 build test
+script: xcodebuild -project mbinfo/mbinfo.xcodeproj -scheme mbinfo -configuration Release -sdk macosx10.13 build
